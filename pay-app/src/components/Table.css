@@ -1,0 +1,28 @@
+.custom-table-container {
+  padding: 1rem;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.custom-table-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.custom-pagination {
+  margin-top: 16px;
+  text-align: right;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .custom-table-actions {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .custom-pagination {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,51 @@
+.payments-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.payments-container h2 {
+  font-size: 26px;
+  margin-bottom: 1.2rem;
+  color: #333;
+  text-align: center;
+}
+
+.payments-container button {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.4rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.payments-container button:hover {
+  background-color: #388e3c;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .payments-container {
+    padding: 1rem;
+  }
+
+  .payments-container h2 {
+    font-size: 22px;
+  }
+
+  .payments-container button {
+    width: 100%;
+    font-size: 15px;
+  }
+}
